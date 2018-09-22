@@ -1,8 +1,8 @@
 {
-  "name": "ui-theme-template",
+  "name": "Boxwood",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "A compact theme with a green feel.",
   "keywords": [
     "ui",
     "theme"
