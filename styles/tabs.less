@@ -11,9 +11,10 @@
 
   .tab {
     color: @text-color;
-    height: @tab-height;
+    height: @tab-height - 1px;
     line-height: @tab-height;
     font-size: @font-size;
+    padding-left:6px;padding-right:16px;
     border-right: 1px solid @tab-border-color;
     background-color: @tab-background-color;
     &.active {
@@ -40,6 +41,12 @@
     }
     &.active .close-icon:hover {
       color: @text-color;
+    }
+    .close-icon:before{
+      margin-top:-3px;line-height:2;
+      background: rgba(255,255,255,0.1);border-radius:100%;
+      color: @tab-background-color;font-size:10px;
+      text-align:center;line-height:12px;
     }
 
 

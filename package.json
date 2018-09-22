@@ -1,15 +1,53 @@
 {
-  "name": "Boxwood",
-  "theme": "ui",
-  "version": "0.0.0",
+  "author": {
+    "name": "Matt Schneider III"
+  },
+  "bugs": {
+    "url": "https://github.com/MattIII/ui-theme-template/issues"
+  },
+  "configSchema": {
+    "useImagery": {
+      "type": "boolean",
+      "default": false
+    },
+    "tabSize": {
+      "title": "Set your tab size",
+      "type": "string",
+      "default": "medium",
+      "enum": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  },
+  "dependencies": {},
   "description": "A compact theme with a green feel.",
-  "keywords": [
-    "ui",
-    "theme"
-  ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
-  "license": "MIT",
+  "devDependencies": {},
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  }
+  },
+  "homepage": "https://github.com/Yummygum/city-lights-ui-atom#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "citylights",
+    "city lights",
+    "darktheme",
+    "dark theme",
+    "city-lights-ui",
+    "city-lights-syntax",
+    "city-lights-icons"
+  ],
+  "license": "CC-BY-NC-ND",
+  "main": "lib/main",
+  "name": "boxwood-ui",
+  "optionalDependencies": {},
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattIII/ui-theme-template.git"
+  },
+  "theme": "ui",
+  "version": "1.5.3"
 }

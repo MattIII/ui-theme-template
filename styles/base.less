@@ -19,4 +19,24 @@ atom-pane {
   &:last-child {
     border-right: none;
   }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background:linear-gradient(
+      90deg,darken(@base-background-color, 3%), @base-background-color 33%);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color:lighten(@base-background-color, 5%);
+    background:linear-gradient(
+      90deg,darken(@base-background-color, 2%),
+      lighten(@base-background-color, 5%) 33%);
+  }
+}
+
+.atom-dock-toggle-button .atom-dock-toggle-button-inner{
+  border:1px solid rgba(0,0,0,0.1);border-radius:2px;
 }
